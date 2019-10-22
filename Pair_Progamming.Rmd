@@ -1,0 +1,21 @@
+---
+title: "Pair programming"
+author: "Mitsue Guerrero"
+date: "10/22/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+library(janitor)
+library(readxl)
+library(tidyverse)
+
+read_csv("raw-data/train.csv")
+
+```
+
